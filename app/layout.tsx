@@ -26,6 +26,9 @@ export const metadata: Metadata = {
     "Hyperspectral Imaging",
     "Student Satellite",
   ],
+  icons: {
+    icon: '/assets/logos/anant-logo.png',
+  },
 };
 
 export default function RootLayout({
@@ -34,7 +37,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground`}>
         {/* Starry space background */}
         <div className="space-bg" aria-hidden="true" />

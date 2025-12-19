@@ -15,7 +15,7 @@ const teamData = {
   faculty: {
     name: "Dr. Meetha V. Shenoy",
     position: "Faculty Coordinator",
-    image: "/assets/team_files/19-21 team/Meetha Teacher.png",
+    image: "/assets/team_files/Meetha Teacher.png",
   },
   leads: [
     {
