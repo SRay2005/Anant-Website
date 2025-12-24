@@ -19,7 +19,7 @@ const subsystems = [
   {
     name: "EPS",
     key: "EPS" as SubsystemKey,
-    fullName: "Electrical Power System",
+    fullName: "Electrical and Power Subsystem",
     description:
       "Advanced power management system featuring Azur Space multi-junction solar cells with 30% efficiency, 2s2p Li-ion battery pack, and MPPT algorithm for optimal energy harvesting under varying illumination conditions",
     image: "/assets/images/rocket2.png",
@@ -30,7 +30,7 @@ const subsystems = [
   {
     name: "OBC",
     key: "OBC" as SubsystemKey,
-    fullName: "On-Board Computer",
+    fullName: "On-Board Computing Subsystem",
     description:
       "BeagleBone Black Industrial-based central processing unit running custom OS with autonomous experiment control, fault tolerance, and real-time data acquisition capabilities",
     image: "/assets/images/bus.png",
@@ -52,7 +52,7 @@ const subsystems = [
   {
     name: "ADCS",
     key: "ADCS" as SubsystemKey,
-    fullName: "Attitude Determination & Control System",
+    fullName: "Attitude Determination and Controls Subsystem",
     description:
       "Precision attitude control featuring BNO085 IMU, GPS module, and B-dot controller algorithm for detumbling using magnetorquers with PWM control signals",
     image: "/assets/images/rocket1.png",
@@ -63,7 +63,7 @@ const subsystems = [
   {
     name: "STS",
     key: "STS" as SubsystemKey,
-    fullName: "Structural & Thermal System",
+    fullName: "Structural and Thermal Subsystem",
     description:
       "Aluminum 6061-T6 structure following 3U CubeSat standard with passive thermal control using MLI insulation, black anodized radiators, and active TMP117 temperature monitoring",
     image: "/assets/images/astronaut.png",

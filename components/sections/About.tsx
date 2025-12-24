@@ -38,21 +38,21 @@ const subsystems = [
   {
     name: "ADCS",
     key: "ADCS" as SubsystemKey,
-    fullName: "Attitude Determination & Control",
+    fullName: "Attitude Determination and Controls Subsystem",
     description: "Precision attitude control with BNO085 IMU and magnetorquers",
     link: "/subsystems/adcs",
   },
   {
     name: "EPS",
     key: "EPS" as SubsystemKey,
-    fullName: "Electrical Power System",
+    fullName: "Electrical and Power Subsystem",
     description: "Solar arrays with MPPT and Li-ion battery management",
     link: "/subsystems/eps",
   },
   {
     name: "OBC",
     key: "OBC" as SubsystemKey,
-    fullName: "On-Board Computer",
+    fullName: "On-Board Computing Subsystem",
     description: "Zynq-7000 SoC with custom Linux OS (TACOS)",
     link: "/subsystems/obc",
   },
@@ -66,7 +66,7 @@ const subsystems = [
   {
     name: "STS",
     key: "STS" as SubsystemKey,
-    fullName: "Structural & Thermal",
+    fullName: "Structural and Thermal Subsystem",
     description: "Monoblock Al 6061-T6 with passive thermal control",
     link: "/subsystems/sts",
   },

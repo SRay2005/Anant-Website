@@ -131,7 +131,7 @@ export function SatelliteModel() {
           size={[1, 1, 3]}
         />
         
-        {/* OBC - On-Board Computer (center) */}
+        {/* OBC - On-Board Computing Subsystem (center) */}
         <SubsystemMesh 
           name="OBC" 
           position={[0, 0, 0.5]} 

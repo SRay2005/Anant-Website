@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { SubsystemPage } from "@/components/sections/SubsystemPage";
 
 export const metadata: Metadata = {
-  title: "ADCS - Attitude Determination & Control | Team Anant",
+  title: "ADCS - Attitude Determination and Controls Subsystem | Team Anant",
   description:
     "Precision attitude control system for Team Anant's nanosatellite with IMU and B-dot controller.",
 };
@@ -43,9 +43,9 @@ export default function ADCSPage() {
   return (
     <SubsystemPage
       code="ADCS"
-      subtitle="Attitude Determination & Control System"
+      subtitle="Attitude Determination and Controls Subsystem"
       description="Precision attitude control for stable imaging and communication operations."
-      overview="The Attitude Determination and Control System (ADCS) maintains satellite orientation using sensors and actuators for precise pointing. It enables stable imaging operations and optimal antenna alignment for ground communication."
+      overview="The Attitude Determination and Controls Subsystem (ADCS) maintains satellite orientation using sensors and actuators for precise pointing. It enables stable imaging operations and optimal antenna alignment for ground communication."
       overviewDetails="Our ADCS features an IMU with integrated sensor fusion, coupled with a GPS module for position determination. The B-dot controller algorithm handles initial detumbling after deployment, using magnetorquers with PWM control signals to interact with Earth's magnetic field."
       specs={specs}
       components={components}

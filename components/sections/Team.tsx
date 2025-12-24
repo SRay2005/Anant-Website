@@ -105,7 +105,7 @@ const teamData = {
       ],
     },
     {
-      name: "Electrical Power System",
+      name: "Electrical and Power Subsystem",
       members: [
         { name: "Meghadri Ghosh", position: "Subsystem Lead", image: "/assets/team_files/24-25/MEGHADRI_GHOSH.jpg" },
         { name: "Manit Kachhwaha", position: "Senior Member", image: "/assets/team_files/24-25/MANIT_ANAND_KACHHWAHA.png" },
