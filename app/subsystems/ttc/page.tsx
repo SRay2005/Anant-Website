@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { SubsystemPage } from "@/components/sections/SubsystemPage";
 
 export const metadata: Metadata = {
-  title: "TTC - Telemetry, Tracking & Command | Team Anant",
+  title: "TTC - Telemetry, Tracking and Command Subsystem | Team Anant",
   description:
     "UHF and S-band communication system for Team Anant's nanosatellite with beaconing and mission data downlink capabilities.",
 };
@@ -55,9 +55,9 @@ export default function TTCPage() {
   return (
     <SubsystemPage
       code="TTC"
-      subtitle="Telemetry, Tracking & Command"
+      subtitle="Telemetry, Tracking and Command Subsystem"
       description="Dual-band communication system with UHF beaconing and S-band mission data downlink for reliable ground station operations."
-      overview="The Telemetry and Ground Station subsystem serves as the communication backbone of the satellite mission. It is responsible for receiving real-time health and status data (telemetry) from the satellite and transmitting commands from the ground. The subsystem uses a UHF transceiver for beaconing and an S-band transceiver for downlinking mission data."
+      overview="The Telemetry, Tracking and Command Subsystem serves as the communication backbone of the satellite mission. It is responsible for receiving real-time health and status data (telemetry) from the satellite and transmitting commands from the ground. The subsystem uses a UHF transceiver for beaconing and an S-band transceiver for downlinking mission data."
       overviewDetails="The ground station enables mission control to monitor and manage operations throughout the mission lifecycle. Using deployable antennas and AX.25 protocol for data framing, the TTC provides reliable communication links during ground station passes. The system supports both beacon transmission and commanded data downloads."
       specs={specs}
       components={components}

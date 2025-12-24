@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { SubsystemPage } from "@/components/sections/SubsystemPage";
 
 export const metadata: Metadata = {
-  title: "OBC - On-Board Computer | Team Anant",
+  title: "OBC - On-Board Computing Subsystem | Team Anant",
   description:
     "System-on-Chip based onboard computer for Team Anant's nanosatellite with custom OS.",
 };
@@ -53,9 +53,9 @@ export default function OBCPage() {
   return (
     <SubsystemPage
       code="OBC"
-      subtitle="On-Board Computer"
+      subtitle="On-Board Computing Subsystem"
       description="System-on-Chip based onboard computer equipped with custom Linux OS for data processing, flight plan and subsystem interfacing. FPGA enabled."
-      overview="The On-Board Computer serves as the brain of the satellite, coordinating all subsystem operations and managing mission data. It executes the flight plan and handles autonomous decision-making."
+      overview="The On-Board Computing Subsystem serves as the brain of the satellite, coordinating all subsystem operations and managing mission data. It executes the flight plan and handles autonomous decision-making."
       overviewDetails="Built on a System-on-Chip (SoC) platform with integrated processor and programmable logic, running a custom Linux-based operating system, the OBC provides reliable space operations with fault-tolerant software architecture. It manages payload scheduling, subsystem interfacing, state management and ground communication protocols."
       specs={specs}
       components={components}

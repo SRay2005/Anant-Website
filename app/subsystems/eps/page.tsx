@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { SubsystemPage } from "@/components/sections/SubsystemPage";
 
 export const metadata: Metadata = {
-  title: "EPS - Electrical Power System | Team Anant",
+  title: "EPS - Electrical and Power Subsystem | Team Anant",
   description:
     "Comprehensive electrical power management system for Team Anant's nanosatellite, featuring solar panel control, battery management, and power distribution.",
 };
@@ -44,9 +44,9 @@ export default function EPSPage() {
   return (
     <SubsystemPage
       code="EPS"
-      subtitle="Electrical Power System"
+      subtitle="Electrical and Power Subsystem"
       description="Advanced power management with efficient generation, storage, and distribution for continuous operations."
-      overview="The Electrical Power System generates, stores, and distributes electrical power across the mission. It handles demanding payload requirements while maintaining reliability throughout the satellite's operational lifetime."
+      overview="The Electrical and Power Subsystem generates, stores, and distributes electrical power across the mission. It handles demanding payload requirements while maintaining reliability throughout the satellite's operational lifetime."
       overviewDetails="High-efficiency solar arrays with MPPT, intelligent battery management, and robust power distribution ensure continuous operation during both sunlit and eclipse periods. The system includes comprehensive protection circuits and housekeeping telemetry for ground monitoring."
       specs={specs}
       components={components}

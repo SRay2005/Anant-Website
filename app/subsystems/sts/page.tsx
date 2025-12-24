@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { SubsystemPage } from "@/components/sections/SubsystemPage";
 
 export const metadata: Metadata = {
-  title: "STS - Structural & Thermal Subsystem | Team Anant",
+  title: "STS - Structural and Thermal Subsystem | Team Anant",
   description:
     "Monoblock Aluminum 6061-T6 structure with passive and active thermal control for Team Anant's 3U CubeSat nanosatellite. ECSS-compliant design for LEO missions.",
 };
@@ -81,7 +81,7 @@ export default function STSPage() {
   return (
     <SubsystemPage
       code="STS"
-      subtitle="Structural & Thermal Subsystem"
+      subtitle="Structural and Thermal Subsystem"
       description="Monoblock 3U CubeSat structure with integrated passive and active thermal management, designed to ECSS standards for LEO missions."
       overview="The Structural and Thermal Subsystem (STS) provides the main mechanical load path, thermal control interface, and environmental protection for Team Anant's nanosatellite. It acts as the primary structural connection between the spacecraft and the launch vehicle, ensuring all onboard subsystems operate within their specified mechanical and thermal limits during launch and orbital operations."
       overviewDetails="The STS is built to endure combined static, vibrational, and acoustic loads experienced during launch (greater than 10 Grms) and the thermal-vacuum environment of Low Earth Orbit (LEO). Following ECSS structural design guidelines, the subsystem employs a monoblock structural architecture to reduce part count, eliminate joint-related failures, and improve overall stiffness. This keeps the spacecraft's fundamental natural frequency well separated from launch vehicle excitation frequencies, minimizing dynamic coupling and resonance during ascent."

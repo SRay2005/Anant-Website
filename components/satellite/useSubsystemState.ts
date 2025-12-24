@@ -11,17 +11,17 @@ interface SubsystemInfo {
 
 export const SUBSYSTEM_INFO: Record<SubsystemKey, SubsystemInfo> = {
   ADCS: {
-    name: "Attitude Determination & Control",
+    name: "Attitude Determination and Controls Subsystem",
     shortDesc: "Reaction wheels, magnetorquers, IMU",
     route: "/subsystems/adcs",
   },
   EPS: {
-    name: "Electrical Power System",
+    name: "Electrical and Power Subsystem",
     shortDesc: "Solar panels, MPPT, battery management",
     route: "/subsystems/eps",
   },
   OBC: {
-    name: "On-Board Computer",
+    name: "On-Board Computing Subsystem",
     shortDesc: "SoC platform, TACOS OS",
     route: "/subsystems/obc",
   },
@@ -31,7 +31,7 @@ export const SUBSYSTEM_INFO: Record<SubsystemKey, SubsystemInfo> = {
     route: "/subsystems/ttc",
   },
   STS: {
-    name: "Structural & Thermal System",
+    name: "Structural and Thermal Subsystem",
     shortDesc: "Al 6061-T6 frame, MLI insulation",
     route: "/subsystems/sts",
   },

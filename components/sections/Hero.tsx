@@ -80,7 +80,7 @@ export function Hero() {
         {/* CTA Buttons */}
         <SlideReveal delay={0.6} className="flex flex-col sm:flex-row gap-4 justify-center items-center flex-wrap">
           {/* Recruitments Open Bubble */}
-          <motion.div
+          {/* <motion.div
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.98 }}
             transition={{ type: "spring", stiffness: 200, damping: 25 }}
@@ -92,7 +92,7 @@ export function Hero() {
               </span>
               <span className="text-sm font-medium text-[var(--accent-teal)]">Recruitments Open!</span>
             </Link>
-          </motion.div>
+          </motion.div> */}
           
           <motion.div
             whileHover={{ scale: 1.02 }}
