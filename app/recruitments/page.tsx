@@ -23,8 +23,8 @@ const recruitmentStages: Stage[] = [
   {
     id: "orientation",
     name: "Orientation",
-    date: "January 10, 2025",
-    status: "upcoming",
+    date: "January 9, 2025",
+    status: "current",
     description: "To introduce you to our work, vision, and opportunitites for you to be a part of this journey, we are hosting an Orientation Session. Learn about the different subsystems and find where your interests align.",
     details: [
       "Introduction to Team Anant and our satellite projects",
