@@ -31,7 +31,7 @@ const recruitmentStages: Stage[] = [
       "Overview of all six subsystems",
       "Meet current team members and leads",
       "Q&A session for prospective members",
-      "Location: TBA"
+      "Location: LTC 5101"
     ],
     resources: [
       { name: "Orientation Slides", url: "#" },
