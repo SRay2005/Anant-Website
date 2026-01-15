@@ -20,13 +20,13 @@ const specs = [
 const components = [
   {
     id: "camera",
-    name: "Hyperspectral Camera",
+    name: "Multispectral Camera",
     description: "Compact imaging sensor capturing 32 spectral bands across visible and near-infrared wavelengths. Enables detailed spectral analysis for vegetation health, water quality, and land classification.",
   },
   {
     id: "processing",
     name: "Data Processing",
-    description: "On-board CCSDS compression algorithm reduces data volume by up to 4:1 while preserving spectral fidelity. Enables efficient storage and transmission of hyperspectral datacubes.",
+    description: "On-board CCSDS compression algorithm reduces data volume by up to 4:1 while preserving spectral fidelity. Enables efficient storage and transmission of multispectral datacubes.",
   },
   {
     id: "pipeline",
@@ -60,9 +60,9 @@ export default function PayloadPage() {
   return (
     <SubsystemPage
       code="Payload"
-      subtitle="Hyperspectral Imaging Payload"
-      description="Compact hyperspectral camera enabling cost-effective orbital imaging for remote sensing applications."
-      overview="The hyperspectral imaging payload is the primary scientific instrument of the mission, capturing detailed spectral data across 32 bands for Earth observation and remote sensing."
+      subtitle="Multispectral Imaging Payload"
+      description="Compact multispectral camera enabling cost-effective orbital imaging for remote sensing applications."
+      overview="The multispectral imaging payload is the primary scientific instrument of the mission, capturing detailed spectral data across 32 bands for Earth observation and remote sensing."
       overviewDetails="With a 4096 pixel across-track sensor format and 12-bit depth, the payload enables vegetation monitoring, water quality assessment, and land classification. On-board CCSDS compression ensures efficient data transmission during ground station passes."
       specs={specs}
       components={components}
