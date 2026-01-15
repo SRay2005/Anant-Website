@@ -24,35 +24,42 @@ const recruitmentStages: Stage[] = [
     id: "orientation",
     name: "Orientation",
     date: "January 14, 2026",
-    status: "current",
+    status: "completed",
     description: "To introduce you to our work, vision, and opportunitites for you to be a part of this journey, we are hosting an Orientation Session. Learn about the different subsystems and find where your interests align.",
     details: [
       "Introduction to Team Anant and our satellite projects",
       "Overview of all six subsystems",
       "Meet current team members and leads",
       "Q&A session for prospective members",
-      "Location: LTC 5101"
+      "Location: LTC 5101",
+      "Joining the Anant Recruitments WhatsApp Group is mandatory to receive updates regarding the recruitment process."
     ],
     resources: [
-      { name: "Orientation Slides", url: "#" },
-      { name: "Team Overview", url: "/about" }
+      { name: "Orientation Slides", url: "/Anant Orientation 2026_complete.pdf" },
+      { name: "Team Overview", url: "/about" },
+      { name: "Resources", url: "https://docs.google.com/document/d/1P9OWGGBwnghbKJ-MV08gKG0f1u7XYaIjdFwldpma6kE/" },
+      { name: "Recruitment Form Link", url: "https://docs.google.com/forms/d/e/1FAIpQLSc-6R8pm-l6adQxe7bzccZdTuN2biaSFZa-3q8zX1PzGKEjrg/" }
     ]
   },
   {
     id: "test-1",
     name: "Round 1 Test",
     date: "January 17, 2026",
-    status: "upcoming",
+    status: "current",
     description: "The first screening test to evaluate your fundamental understanding and problem-solving abilities. We hope you enjoy the paper!",
     details: [
       "Duration: 24 hours",
       "Open Internet Test",
       "You may attempt the paper for multiple subsystems.",
-      "Your current choice does not lock you into the specific vertical."
+      "Your current choice does not lock you into the specific vertical.",
+      "Joining the Anant Recruitments WhatsApp Group is mandatory to receive updates regarding the test.",
+      "If you have not been added to the Google Classroom or face any issues fill out the Issues form from the link below."
     ],
     resources: [
       { name: "Resources", url: "https://docs.google.com/document/d/1P9OWGGBwnghbKJ-MV08gKG0f1u7XYaIjdFwldpma6kE/" },
-      // { name: "Sample Questions", url: "#" }
+      { name: "Resources Document", url: "/Anant_Recruitments_26_Resource_Doc.pdf" },
+      { name: "Recruitment Form Link", url: "https://docs.google.com/forms/d/e/1FAIpQLSc-6R8pm-l6adQxe7bzccZdTuN2biaSFZa-3q8zX1PzGKEjrg/" },
+      { name: "Issues Form", url: "https://forms.gle/qSwvhQ9s8T9xvmz46"}
     ]
   },
   {
@@ -67,6 +74,7 @@ const recruitmentStages: Stage[] = [
     ],
     resources: [
       { name: "Resources", url: "https://docs.google.com/document/d/1P9OWGGBwnghbKJ-MV08gKG0f1u7XYaIjdFwldpma6kE/" },
+      { name: "Resources Document", url: "/Anant_Recruitments_26_Resource_Doc.pdf" },
       // { name: "Sample Questions", url: "#" }
     ]
   },
