@@ -39,9 +39,11 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@types/draco3d": "^1.4.10",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/webxr": "^0.5.24",
     "eslint": "^9",
     "eslint-config-next": "16.1.0",
     "shadcn": "^3.6.2",
