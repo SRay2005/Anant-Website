@@ -24,7 +24,7 @@ const recruitmentStages: Stage[] = [
     id: "orientation",
     name: "Orientation",
     date: "January 14, 2026",
-    status: "current",
+    status: "completed",
     description: "To introduce you to our work, vision, and opportunitites for you to be a part of this journey, we are hosting an Orientation Session. Learn about the different subsystems and find where your interests align.",
     details: [
       "Introduction to Team Anant and our satellite projects",
@@ -42,7 +42,7 @@ const recruitmentStages: Stage[] = [
     id: "test-1",
     name: "Round 1 Test",
     date: "January 17, 2026",
-    status: "upcoming",
+    status: "current",
     description: "The first screening test to evaluate your fundamental understanding and problem-solving abilities. We hope you enjoy the paper!",
     details: [
       "Duration: 24 hours",
