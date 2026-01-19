@@ -45,7 +45,7 @@ const recruitmentStages: Stage[] = [
     id: "test-1",
     name: "Round 1 Test",
     date: "January 17, 2026",
-    status: "upcoming",
+    status: "completed",
     description: "The first screening test to evaluate your fundamental understanding and problem-solving abilities.",
     details: [
       "Duration: 24 hours",
