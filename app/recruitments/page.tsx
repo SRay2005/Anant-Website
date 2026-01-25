@@ -140,9 +140,28 @@ function getStatusIcon(status: Stage["status"]) {
       return <Circle className="h-4 w-4 text-muted-foreground" />;
   }
 }
+function getDefaultStage(stages: Stage[]): Stage {
+  // 1. Current (in-progress)
+  const current = stages.find(stage => stage.status === "current");
+  if (current) return current;
+
+  // 2. Most recent completed (last completed in list)
+  const completed = [...stages]
+    .filter(stage => stage.status === "completed");
+
+  if (completed.length > 0) {
+    return completed[completed.length - 1];
+  }
+
+  // 3. Fallback
+  return stages[0];
+}
 
 export default function RecruitmentsPage() {
-  const [selectedStage, setSelectedStage] = useState<Stage>(recruitmentStages[0]);
+  const [selectedStage, setSelectedStage] = useState<Stage>(() =>
+  getDefaultStage(recruitmentStages)
+);
+
 
   return (
     <main className="min-h-screen pt-24 pb-16 px-4 md:px-6">
