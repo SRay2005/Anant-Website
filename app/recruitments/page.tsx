@@ -65,8 +65,8 @@ const recruitmentStages: Stage[] = [
   {
     id: "interviews-1",
     name: "Round 1 Interviews",
-    date: "TBA",
-    status: "upcoming",
+    date: "January 25 - January 31, 2026",
+    status: "current",
     description: "Personal interviews to discuss your test performance for Round 1.",
     details: [
       "You may be called for multiple interviews based on the subsystems you attempted.",
@@ -74,14 +74,14 @@ const recruitmentStages: Stage[] = [
     ],
     resources: [
       { name: "Resources", url: "https://docs.google.com/document/d/1P9OWGGBwnghbKJ-MV08gKG0f1u7XYaIjdFwldpma6kE/" },
-      { name: "Resources Document", url: "/Anant_Recruitments_26_Resource_Doc.pdf" },
-      // { name: "Sample Questions", url: "#" }
+      { name: "Introduction Doc", url: "/Anant_Recruitments_26_Resource_Doc.pdf" },
+      { name: "Round 1 Papers", url: "https://drive.google.com/file/d/1qVqt2aKb126p0UPGvIMNILevYiIVGAoi/view?usp=sharing" },
     ]
   },
   {
     id: "probationary-lectures",
     name: "Probationary Lectures",
-    date: "January 28 - February 11, 2026",
+    date: "February 2 - February 20, 2026",
     status: "upcoming",
     description: "Attend specialized lectures for each subsystem to understand the technical aspects and choose your preferred domain.",
     details: [
@@ -92,8 +92,8 @@ const recruitmentStages: Stage[] = [
       "Opportunity to ask subsystem-specific questions"
     ],
     resources: [
-      { name: "Lecture Schedule", url: "#" },
-      { name: "Subsystem Overviews", url: "/subsystems/eps" }
+      // { name: "Lecture Schedule", url: "#" },
+      { name: "Subsystem Overviews", url: "/Anant_Recruitments_26_Resource_Doc.pdf" }
     ]
   },
   {
