@@ -161,12 +161,12 @@ export default function RecruitmentsPage() {
           <Card className="border border-border/50 bg-background/50 backdrop-blur-sm overflow-hidden">
             <div className="flex flex-col md:flex-row">
               {/* Left Pane - Timeline */}
-              <div className="w-full md:w-[300px] md:shrink-0 border-b md:border-b-0 md:border-r border-border/50 bg-muted/30 order-2 md:order-1">
+              <div className="w-full md:w-75 md:shrink-0 border-b md:border-b-0 md:border-r border-border/50 bg-muted/30 order-2 md:order-1">
                 <div className="p-4 pb-2">
                   <h3 className="font-semibold text-lg mb-1">Timeline</h3>
                   <p className="text-xs text-muted-foreground">Click on a stage to view details</p>
                 </div>
-                <ScrollArea className="h-auto max-h-[400px] px-4">
+                <ScrollArea className="h-auto max-h-100 px-4">
                   <div className="space-y-0 py-2">
                     {recruitmentStages.map((stage) => (
                       <button
